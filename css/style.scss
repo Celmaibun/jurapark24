@@ -207,6 +207,13 @@ body {
   }
   .swiper {
     width: 50%;
+    margin-right: 10px;
+    .swiper-button-next {
+      color: #fff;
+    }
+    .swiper-button-prev {
+      color: #fff;
+    }
   }
 }
 .contact {

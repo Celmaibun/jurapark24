@@ -285,6 +285,15 @@ body {
 
 .gallery-section .swiper {
   width: 50%;
+  margin-right: 10px;
+}
+
+.gallery-section .swiper .swiper-button-next {
+  color: #fff;
+}
+
+.gallery-section .swiper .swiper-button-prev {
+  color: #fff;
 }
 
 .contact {
