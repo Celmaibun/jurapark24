@@ -12,6 +12,7 @@ body {
   max-width: 100%;
   min-width: 100%;
   font-size: 20px;
+  overflow-x: hidden;
 }
 #preloader {
   background: #f0c16f url(/img/preloader.gif) no-repeat center center;
@@ -282,12 +283,12 @@ body {
   .navigation {
     justify-content: space-between !important;
   }
-  #hamburger {
-    position: fixed;
-    right: 0;
-    display: block;
-    z-index: 100;
-  }
+  // #hamburger {
+  //   position: fixed;
+  //   right: 0;
+  //   display: block;
+  //   z-index: 100;
+  // }
   #navbar {
     display: none;
   }

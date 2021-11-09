@@ -15,6 +15,7 @@ body {
   max-width: 100%;
   min-width: 100%;
   font-size: 20px;
+  overflow-x: hidden;
 }
 
 #preloader {
@@ -401,12 +402,6 @@ body {
     -webkit-box-pack: justify !important;
         -ms-flex-pack: justify !important;
             justify-content: space-between !important;
-  }
-  #hamburger {
-    position: fixed;
-    right: 0;
-    display: block;
-    z-index: 100;
   }
   #navbar {
     display: none;
