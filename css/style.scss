@@ -167,7 +167,7 @@ body {
   max-height: 400px;
   min-height: 200px;
   justify-content: space-between;
-  flex-grow: 1;
+  flex-grow: 0;
   margin: 0 0.5rem 1rem;
   //   flex-basis: 20%;
   //   flex-grow: 1;
@@ -343,7 +343,7 @@ body {
 }
 @media (max-width: 767px) {
   .attractions-wrap {
-    width: 100% !important;
+    width: 90% !important;
   }
   .first-text {
     font-size: 2rem !important;
@@ -372,6 +372,9 @@ body {
     letter-spacing: 0.2rem !important;
   }
   .atraction {
+    width: 100% !important;
+  }
+  .attractions-wrap {
     width: 100% !important;
   }
   .text-centered {

@@ -233,9 +233,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
   margin: 0 0.5rem 1rem;
 }
 
@@ -473,7 +473,7 @@ body {
 
 @media (max-width: 767px) {
   .attractions-wrap {
-    width: 100% !important;
+    width: 90% !important;
   }
   .first-text {
     font-size: 2rem !important;
@@ -502,6 +502,9 @@ body {
     letter-spacing: 0.2rem !important;
   }
   .atraction {
+    width: 100% !important;
+  }
+  .attractions-wrap {
     width: 100% !important;
   }
   .text-centered {
