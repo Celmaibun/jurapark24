@@ -200,7 +200,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   background: url(../img/quad.jpg) no-repeat fixed;
   background-size: cover;
   background-position: center;
