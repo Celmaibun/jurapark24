@@ -201,10 +201,11 @@ body {
       font-weight: 900;
       text-align: center;
       margin: 0;
-      filter: drop-shadow(0 0 0.1rem black);
+      text-shadow: 0px 5px 30px #00000080;
     }
     .first-text {
       font-size: 5rem;
+      word-spacing: 0.5rem;
     }
     .second-text {
       font-size: 7rem;
@@ -216,7 +217,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f36e20;
-    padding: 0.5em;
+    padding: 1rem;
     align-self: center;
     margin: auto;
     text-align: center;
@@ -225,7 +226,6 @@ body {
       color: #fff;
       font-size: 3rem;
       font-weight: 700;
-      filter: drop-shadow(0 0 0.1rem black);
       text-transform: uppercase;
       text-decoration: none;
     }
@@ -297,7 +297,7 @@ body {
       color: #fff;
       font-size: 3em;
       font-weight: 700;
-      filter: drop-shadow(0 0 0.1rem black);
+      text-shadow: 0px 5px 30px #00000080;
     }
     .description {
       width: 50%;
@@ -336,6 +336,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    p {
+      padding: 1rem;
+    }
     .name {
       font-size: 2em;
       font-weight: 700;
@@ -399,6 +402,9 @@ body {
   }
 }
 @media (max-width: 1199px) {
+  .main {
+    min-height: 100vh !important;
+  }
   .first-text {
     font-size: 3rem !important;
   }
