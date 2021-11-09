@@ -402,6 +402,19 @@ body {
         -ms-flex-pack: justify !important;
             justify-content: space-between !important;
   }
+  .description {
+    font-size: 1rem !important;
+  }
+  .main-text {
+    font-size: 2em !important;
+  }
+  #hamburger {
+    position: fixed;
+    right: 0;
+    margin: 0 1rem 0 0;
+    display: block;
+    z-index: 100;
+  }
   #navbar {
     display: none;
   }
