@@ -9,9 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  position: fixed;
+  max-width: 100%;
+  min-width: 100%;
   font-size: 20px;
-  overflow-x: hidden;
 }
 #preloader {
   background: #f0c16f url(/img/preloader.gif) no-repeat center center;

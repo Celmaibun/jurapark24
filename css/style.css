@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  position: fixed;
+  max-width: 100%;
+  min-width: 100%;
   font-size: 20px;
-  overflow-x: hidden;
 }
 
 #preloader {
