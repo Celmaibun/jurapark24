@@ -255,23 +255,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: no-wrap;
-      flex-wrap: no-wrap;
-}
-
-.gallery-section .splide {
-  color: #fff;
-  margin: 1rem;
-}
-
-.gallery-section .splide .splide__arrow {
-  background: #fff;
 }
 
 .gallery-section .gallery-text {
   text-align: center;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
 }
 
 .gallery-section .gallery-text .main-text {
@@ -285,6 +273,10 @@ body {
   margin: 0 auto;
   color: #fff;
   font-size: 1.5rem;
+}
+
+.gallery-section .swiper {
+  width: 50%;
 }
 
 .contact {

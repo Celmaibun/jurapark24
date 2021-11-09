@@ -3,16 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/@splidejs/splide/dist/css/splide.min.css"
-    />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="/node_modules/@splidejs/splide/dist/js/splide.js""></script>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script src="https://use.fontawesome.com/57523ce529.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
   </head>
@@ -83,35 +82,20 @@
           następnie dołącz do grona szczęśliwych klientów.
         </p>
       </div>
-      <div class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <img src="img/gallery/1.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/3.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/4.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/5.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/6.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/7.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/8.jpg" />
-            </li>
-            <li class="splide__slide">
-              <img src="img/gallery/9.jpg" />
-            </li>
-          </ul>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/img/gallery/1.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/3.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/4.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/5.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/6.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/7.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/8.jpg"></div>
+          <div class="swiper-slide"><img src="/img/gallery/9.jpg"></div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
     <section id="contact" class="contact">
@@ -141,13 +125,18 @@
     </footer>
   </body>
   <script src="main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>     
     AOS.init();
-    var splide = new Splide('.splide', {
-  type: 'fade',
-  rewind: true,
-});
-
-splide.mount();
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 </script>
 </html>

@@ -179,22 +179,15 @@ body {
     filter: drop-shadow(0 0 0.05rem black);
   }
 }
+//gallery
 .gallery-section {
   width: 100%;
   background-color: #f0c16f;
   margin-top: 50px;
   display: flex;
-  flex-wrap: no-wrap;
-  .splide {
-    color: #fff;
-    margin: 1rem;
-    .splide__arrow {
-      background: #fff;
-    }
-  }
   .gallery-text {
     text-align: center;
-    flex-basis: 50%;
+    width: 50%;
     .main-text {
       color: #010101;
       font-size: 4em;
@@ -206,6 +199,9 @@ body {
       color: #fff;
       font-size: 1.5rem;
     }
+  }
+  .swiper {
+    width: 50%;
   }
 }
 .contact {
