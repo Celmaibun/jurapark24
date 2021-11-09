@@ -20,7 +20,22 @@ $yellow: #ffa700;
 $white: #eee;
 
 $width: 100px;
-
+.goup {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 1000000;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
 .loader {
   position: relative;
   margin: 0 auto;
