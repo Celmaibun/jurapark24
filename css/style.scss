@@ -248,7 +248,7 @@ body {
   flex-wrap: wrap;
   .atraction:last-child {
     .text-centered {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 }
@@ -272,7 +272,7 @@ body {
     padding: 1rem 0px 1rem 0px;
     background: rgba($color: #000000, $alpha: 0.2);
     position: absolute;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -416,6 +416,9 @@ body {
     width: 70% !important;
     margin: 2rem 0 2rem 0 !important;
   }
+  .text-centered {
+    font-size: 1.5rem !important;
+  }
 }
 @media (max-width: 991px) {
   .contact {
@@ -439,6 +442,12 @@ body {
     &-text {
       font-size: 2rem !important;
     }
+  }
+  .attractions-wrap {
+    width: 60% !important;
+  }
+  .atraction {
+    width: 100% !important;
   }
 }
 @media (max-width: 767px) {
@@ -481,7 +490,7 @@ body {
     font-size: 2rem !important;
   }
   .main-text {
-    font-size: 3em !important;
+    font-size: 2.5em !important;
     font-weight: 700;
   }
 }
