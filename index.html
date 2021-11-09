@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -127,7 +125,12 @@
   </body>
   <script src="main.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>     
+  <script>
+    let loader = document.getElementById('preloader');
+
+window.addEventListener('load', function () {
+  loader.style.display = 'none';
+});
     AOS.init();
     var swiper = new Swiper(".mySwiper", {
         pagination: {
