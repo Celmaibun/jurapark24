@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/57523ce529.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <div class="navbar-mobile hidden" id="navbar-mobile">
+      <a href="#attractions">Oferta</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#contact">Kontakt</a>
+    </div>
+    <section class="main">
+      <div class="navigation">
+        <img class="img-logo" src="img/logo.png" alt="logo" />
+        <ul class="navbar" id="navbar">
+          <li><a href="#attractions">Oferta</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="intro">
+        <p class="first-text intro-text">poznaj smak</p>
+        <p class="second-text intro-text">adrenaliny</p>
+      </div>
+      <div class="our-attractions">
+        <a href="#attractions" class="our-attractions-text">nasze atrakcje</a>
+      </div>
+    </section>
+    <section id="attractions" class="attractions">
+      <div class="attractions-wrap">
+        <div data-aos="fade-right" class="atraction">
+          <img src="img/4x4car.jpeg" alt="4x4car" />
+          <p class="text-centered">samochody terenowe</p>
+        </div>
+        <div data-aos="fade-left" class="atraction">
+          <img src="img/quad_2.jpg" alt="quad" />
+          <p class="text-centered">quady</p>
+        </div>
+        <div data-aos="fade-right" class="atraction">
+          <img src="img/weapon.jpg" alt="weapon" />
+          <p class="text-centered">broń ostra</p>
+        </div>
+        <div data-aos="fade-left" class="atraction">
+          <img src="img/paintball.jpg" alt="quad" />
+          <p class="text-centered">paintball</p>
+        </div>
+        <div data-aos="fade-right" class="atraction">
+          <img src="img/zipline.jpg" alt="quad" />
+          <p class="text-centered">kolejka tyrolska</p>
+        </div>
+        <div data-aos="fade-left" class="atraction">
+          <img src="img/bow.jpg" alt="quad" />
+          <p class="text-centered">strzelnica łucznicza</p>
+        </div>
+        <div data-aos="zoom-in" class="atraction">
+          <img src="img/imprezy.jpg" alt="quad" />
+          <p class="text-centered">imprezy dostosowane do potrzeb klienta</p>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery-section">
+      <div class="gallery-text">
+        <p class="main-text">Galeria</p>
+        <p class="description">
+          Przygoda, przygoda każdej chwili szkoda! JuraPark24 oferuje
+          niezapomniane przeżycia oraz świetną zabawę! Przyjedź, sprawdź a
+          następnie dołącz do grona szczęśliwych klientów.
+        </p>
+      </div>
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="img/gallery/1.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/3.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/4.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/5.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/6.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/7.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/8.jpg" />
+            </li>
+            <li class="splide__slide">
+              <img src="img/gallery/9.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contact-logo">
+        <img src="img/logo.png" />
+      </div>
+      <div class="contact-wrapper">
+        <p class="name"></i></i>KONTAKT</p>
+        <p class="phone-number"><i class="fa fa-phone-square" aria-hidden="true"></i> +48 694-000-375</p>
+        <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i> e-mail: juraparkbiskupice@op.pl</p>
+        <a href="https://www.facebook.com/JuraparkBiskupice" target="_blank" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40429.93970258144!2d19.212659208766322!3d50.70377407376937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47173532f64c463f%3A0xdf143a706e9c3b5a!2sJURAPARK%20Biskupice!5e0!3m2!1spl!2spl!4v1636412727125!5m2!1spl!2spl"
+          width="400"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <footer class="footer">
+        <p>© 2020 JURAPARK24.PL</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
