@@ -139,6 +139,15 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide('.splide', {
+  type: 'fade',
+  rewind: true,
+});
+
+splide.mount();
+AOS.init();
+    </script>
     <script src="main.js"></script>
   </body>
 </html>
