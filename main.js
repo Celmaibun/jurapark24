@@ -1,3 +1,10 @@
+var splide = new Splide('.splide', {
+  type: 'fade',
+  rewind: true,
+});
+
+splide.mount();
+AOS.init();
 const hamburger = document.getElementById('hamburger');
 const navUl = document.getElementById('navbar-mobile');
 const navItems = [...document.querySelectorAll('.navbar-mobile a')];
