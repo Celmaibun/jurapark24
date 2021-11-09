@@ -26,6 +26,7 @@ body {
   display: block;
   z-index: 98;
   background-color: #f0c16f;
+  opacity: 0.9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,7 +423,7 @@ body {
   }
   .swiper {
     width: 70% !important;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0 !important;
   }
 }
 
