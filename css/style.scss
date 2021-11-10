@@ -27,7 +27,7 @@ $width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0.8rem;
   background-color: #fff;
   border-radius: 50%;
   z-index: 1000000;
@@ -156,6 +156,7 @@ body {
   background: url(../img/quad.jpg) no-repeat fixed;
   background-size: cover;
   background-position: center;
+
   .navigation {
     display: flex;
     align-items: center;
@@ -298,10 +299,31 @@ body {
     filter: drop-shadow(0 0 0.05rem black);
   }
 }
+//events section
+.events {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0 4rem 0;
+  .event-header {
+    margin: 0 0 2rem 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 2rem;
+    background: #f36e20;
+    text-shadow: 0px 3px 6px #00000080;
+  }
+}
 //gallery
 .gallery-section {
   min-width: 100%;
-  background-color: #f36e20;
+  background: #f36e20;
   margin-top: 50px;
   display: flex;
   align-items: center;
@@ -312,7 +334,7 @@ body {
       color: #fff;
       font-size: 3em;
       font-weight: 700;
-      text-shadow: 0px 5px 30px #00000080;
+      text-shadow: 0px 3px 6px #00000080;
     }
     .description {
       width: 50%;
@@ -399,6 +421,11 @@ body {
   }
   .main-text {
     font-size: 2em !important;
+  }
+  .main {
+    background: url(../img/quad.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
   }
   #hamburger {
     position: fixed;
@@ -489,10 +516,18 @@ body {
     width: 100% !important;
   }
   .text-centered {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   .swiper {
     width: 90% !important;
+  }
+  .event-header {
+    font-size: 1.5rem !important;
+  }
+  .event {
+    iframe {
+      width: 410px;
+    }
   }
 }
 
@@ -511,11 +546,16 @@ body {
     width: 100% !important;
   }
   .text-centered {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   .main-text {
     font-size: 2.5em !important;
     font-weight: 700;
+  }
+  .event {
+    iframe {
+      width: 340px;
+    }
   }
 }
 @media (max-width: 414px) {
@@ -523,7 +563,7 @@ body {
     font-size: 1rem !important;
   }
   .second-text {
-    font-size: 2.8rem !important;
+    font-size: 2.5rem !important;
   }
   .contact-map {
     iframe {
@@ -532,5 +572,16 @@ body {
   }
   .contact-wrapper {
     font-size: 1rem !important;
+  }
+  .event {
+    iframe {
+      width: 300px;
+    }
+  }
+  .our-attractions {
+    padding: 0.2rem !important;
+    &-text {
+      font-size: 1.5rem !important;
+    }
   }
 }
