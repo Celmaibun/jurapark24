@@ -486,11 +486,9 @@ body {
   margin: 1rem;
 }
 
-.gallery-section .swiper .swiper-button-next {
-  color: #fff;
-}
-
-.gallery-section .swiper .swiper-button-prev {
+.gallery-section .swiper .swiper-button-next,
+.gallery-section .swiper .swiper-button-prev,
+.gallery-section .swiper .swiper-pagination {
   color: #fff;
 }
 
